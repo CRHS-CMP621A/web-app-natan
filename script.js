@@ -222,3 +222,11 @@ function updateDate() {
   }
 }
 updateDate();
+
+function finishSurvey(){
+  let x = document.querySelector(".finished");
+  x.innerHTML=`<p><em><strong> Your survey is completed, click on Meal Plan below to see our suggested meal plan for you.</strong></em></p>
+  <p><em><strong>Click on Show Nutrients to see your daily nutrition intake.</strong></em></p>`;
+}
+
+document.querySelector("#hide2").addEventListener("click", finishSurvey);

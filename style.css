@@ -218,4 +218,8 @@ span a{
   .box {
     width: 100%;
   }
+
+  .logo{
+    height: 200px;
+  }
 }
